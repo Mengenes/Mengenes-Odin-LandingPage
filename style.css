@@ -1,0 +1,19 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+
+
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.body-container{display:flex; background-color:lightgray ;}
+
+
+
+
+footer{display: flex; justify-content: center; align-items: center; min-height:10ch; background:#1F2937;}

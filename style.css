@@ -9,4 +9,22 @@
 }
 
 
+.header{display: flex;  justify-content: space-around;  background:#1F2937 ;  min-height:7ch; align-items: center; padding:0 100px 0 0 ;}
 
+.header .header-text{display: flex;  }
+
+
+.header .header-links ul {list-style: none; display:flex;  gap: 20px; align-items: center;}
+.header .header-links a{text-decoration: none; font-size: 18px; color:#E5E7EB; }
+
+
+.hero{display: flex; justify-content: center; align-items: center; background: #1F2937; min-height:50ch; gap:200px;}
+
+
+.hero .hero-text h1{max-width:300px; font-size: 48px; color:#F9FAF8; font-weight:900 ; margin-bottom: 5px;}
+.hero .hero-text  p {font-size: 18px; color:#E5E7EB; max-width:400px ; margin-bottom:10px;}
+
+.hero .hero-img{display: flex;}
+
+
+.hero button{background-color:#3882F6 ;  padding:6px 32px; border-radius:6px ; border:none;  }

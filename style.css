@@ -1,3 +1,6 @@
+body{min-height: 100vh;}
+
+
 *{margin:0; padding:0; box-sizing: border-box;}
 
 
@@ -11,8 +14,9 @@
 
 .header{display: flex;  justify-content: space-around;  background:#1F2937 ;  min-height:7ch; align-items: center; padding:0 100px 0 0 ;}
 
-.header .header-text{display: flex;  }
+.header .header-img{display: flex;  }
 
+.header .header-img img {border-radius:30px ; border:3px solid green;}
 
 .header .header-links ul {list-style: none; display:flex;  gap: 20px; align-items: center;}
 .header .header-links a{text-decoration: none; font-size: 18px; color:#E5E7EB; }
@@ -26,6 +30,7 @@
 
 .hero .hero-img{display: flex;}
 
+.hero-img img {border-radius: 10px;}
 
 .hero button{background-color:#3882F6 ;  padding:6px 32px; border-radius:6px ; border:none;  }
 
@@ -46,4 +51,42 @@
 
 .info-card-text{margin-top: 10px;  text-align: center; }
 
-.info-card img{border-radius: 8px;}
+.info-card img{border-radius: 8px; border:5px  solid green ;}
+
+.quote-container{display: flex; justify-content:center; align-items: center; margin-top:150px ; min-height: 70ch; background:#E5E7EB; gap:300px ; }
+
+.quote .quote-text p{font-size: 36px;  color: #1F2937; font-weight: 300; }
+
+.quote{display: flex;  align-items: center;  flex-direction: column; 
+  align-items: flex-start; border: 1px solid bla; }
+
+.quote-author{margin-top:10px ;  align-self: center;}
+
+.quote-text{max-width:900px;}
+
+.quote .quote-author p {color: #1F2937; font-size: 26px; font-weight:900;}
+
+
+.cta-container-inside{background: #3882F6; display: flex; justify-content:space-around; align-items: center; margin-top:100px; min-width:200ch; min-height:15ch ;  border-radius:6px ;  }
+
+.cta-bottom-text{display: flex;  justify-content: center; }
+
+.cta-container{display: flex; justify-content:center;  min-width:100%;}
+
+.cta-text h1 { color:#F9FAF8; font-weight:900 ; font-size:26px;}
+
+.cta-text p {color:#E5E7EB; font-size:14px ;}
+
+.cta-button{display: flex;  border:1px solid white; border-radius:10px ;}
+
+.cta-button button {padding:8px 30px; background: #3882F6;  border-radius:10px ;  border:0px solid white; color:#F9FAF8;}
+
+
+footer{display: flex; justify-content: center; align-items: center; background-color:#1F2937  ; color:#F9FAF8; min-height:10ch; margin-top:60px ; }
+
+
+button:hover{background:#E5E7EB ; cursor: pointer;}
+
+
+
+

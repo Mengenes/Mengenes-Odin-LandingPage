@@ -11,7 +11,7 @@ body{min-height: 100vh;}
   font-style: normal;
 }
 
-
+.layout-container{display:flex; flex-direction: column; flex:1;}
 .header{display: flex;  justify-content: space-around;  background:#1F2937 ;  min-height:7ch; align-items: center; padding:0 100px 0 0 ;}
 
 .header .header-img{display: flex;  }

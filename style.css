@@ -34,7 +34,7 @@ body{min-height: 100vh;}
  img{max-inline-size:100%; }
 .hero button{background-color:#3882F6 ;  padding:6px 32px; border-radius:6px ; border:none;  }
 
-.info-area{display: flex; justify-content: center; align-items: center; min-height:30ch; margin-top:60px; text-align: center;}
+.info-area{display: flex; justify-content: center; align-items: center; min-height:30ch; margin-top:60px; text-align: center; flex-wrap:wrap ;}
 
 .info-cards-container{display: flex; justify-content: center; align-items: center;  gap:40px ;}
 
@@ -119,9 +119,7 @@ button:hover{background:#E5E7EB ; cursor: pointer;}
     padding: 1rem;
   }
 
-  .info-cards-container {
-    gap: 30px;
-  }
+  
 
   .quote-container {
     flex-direction: column;
@@ -146,7 +144,7 @@ button:hover{background:#E5E7EB ; cursor: pointer;}
   .cta-container-inside {
     flex-direction: column;
     min-width: auto;
-    width: 100%;
+   max-width: 100%;
     padding: 2rem;
     text-align: center;
     gap: 1rem;
@@ -163,15 +161,6 @@ button:hover{background:#E5E7EB ; cursor: pointer;}
   }
 
   body {
-    font-size: 90%;
+    font-size: inherit;
   }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
-
 }
